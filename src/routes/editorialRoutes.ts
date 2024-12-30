@@ -9,7 +9,6 @@ import {
 
 const router = express.Router()
 
-// Crear una nueva editorial
 router.post('/', createEditorial)
 
 /**
@@ -45,7 +44,6 @@ router.post('/', createEditorial)
  *         description: Error en el servidor
  */
 
-// Obtener todas las editoriales
 router.get('/', getAllEditorials)
 
 /**
@@ -60,7 +58,6 @@ router.get('/', getAllEditorials)
  *         description: Error en el servidor
  */
 
-// Obtener una editorial específica por ID
 router.get('/:id', getEditorialById)
 
 /**
@@ -85,7 +82,6 @@ router.get('/:id', getEditorialById)
  *         description: Error en el servidor
  */
 
-// Actualizar una editorial específica por ID
 router.put('/:id', updateEditorial)
 
 /**
@@ -131,7 +127,6 @@ router.put('/:id', updateEditorial)
  *         description: Error en el servidor
  */
 
-// Eliminar una editorial específica por ID
 router.delete('/:id', deleteEditorial)
 
 /**

@@ -55,7 +55,6 @@ export const getAuthorById = async (
   }
 }
 
-// Actualizar un autor
 export const updateAuthor = async (
   req: Request,
   res: Response
@@ -87,7 +86,6 @@ export const updateAuthor = async (
   }
 }
 
-// Eliminar un autor
 export const deleteAuthor = async (
   req: Request,
   res: Response

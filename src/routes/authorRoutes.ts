@@ -9,7 +9,6 @@ import {
 
 const router = express.Router()
 
-// Crear un nuevo autor
 router.post('/', createAuthor)
 
 /**

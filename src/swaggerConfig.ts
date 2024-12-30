@@ -14,7 +14,7 @@ const swaggerOptions: swaggerJsdoc.Options = {
       }
     ]
   },
-  apis: ['./src/routes/*.ts'] // Ruta a los archivos de rutas con anotaciones Swagger
+  apis: ['./src/routes/*.ts']
 }
 
 const swaggerDocs = swaggerJsdoc(swaggerOptions)
