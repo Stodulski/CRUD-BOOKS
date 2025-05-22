@@ -10,12 +10,6 @@ Repositorio de ejemplo que implementa un CRUD de libros con **Node.js**, **TypeS
 - [Tecnologías](#tecnologías)  
 - [Requisitos previos](#requisitos-previos)  
 - [Instalación](#instalación)  
-- [Estructura de carpetas](#estructura-de-carpetas)  
-- [Scripts disponibles](#scripts-disponibles)  
-- [Variables de entorno](#variables-de-entorno)  
-- [API REST: Endpoints](#api-rest-endpoints)  
-- [Contribuir](#contribuir)  
-- [Licencia](#licencia)  
 
 ---
 
