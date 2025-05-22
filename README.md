@@ -8,8 +8,6 @@ Repositorio de ejemplo que implementa un CRUD de libros con **Node.js**, **TypeS
 
 - [Descripción](#descripción)  
 - [Tecnologías](#tecnologías)  
-- [Requisitos previos](#requisitos-previos)  
-- [Instalación](#instalación)  
 
 ---
 
@@ -33,20 +31,3 @@ Está construido con **TypeScript** y **Express**, persiste datos en **MongoDB**
 - [Express](https://expressjs.com/)  
 - [MongoDB](https://www.mongodb.com/) (+ [Mongoose](https://mongoosejs.com/))  
 - [dotenv](https://github.com/motdotla/dotenv) (para configuración)  
-
----
-
-## ⚙️ Requisitos previos
-
-- **Node.js** v16+  
-- **npm** v8+ o **Yarn**  
-- Una instancia de **MongoDB** en local o en la nube  
-
----
-
-## 🚀 Instalación
-
-1. **Clonar el repositorio**  
-   ```bash
-   git clone https://github.com/Stodulski/CRUD-BOOKS.git
-   cd CRUD-BOOKS
